@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="container">
+
+  <div class="row">
+<!-- posts container -->
+    <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12 posts-container">
+                {{ content }}
+    </div>
+<!-- siderbar container -->
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 sidebar-container">
+     <!--  <section>    
+        <hr/>        
+        <h4>标签</h4>
+        <div class="tags">
+        {% for tag in site.tags %}                            
+          <a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+        {% endfor %}
+        </div>
+      </section> -->
+      <section class="visible-lg visible-md">
+        <hr/>
+        <div><img src="{{ site.baseurl}}/images/sidebar_3.jpg" alt="linglin_blog"></div>
+        <p style="color: #a6a6a6">Happy life, Happy coding~</p>
+      </section>
+     
+      <section>
+        <hr>
+         <div><img src="{{ site.baseurl}}/images/sidebar_1.png" alt="linglin_blog"></div>
+        <h4 style="color: #a6a6a6">FRIENDS</h4>
+        
+        <ul class="list-inline">
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
+      </section>           
+    </div>
+  </div>  
+</div> 

@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="container">
+
+	<div class="row">
+  	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-content">
+         
+          <h2>{{page.title}}</h2>
+          <hr>
+
+        	{{ content }}  
+        </div> 
+        <hr>
+         <p style="color: #bbc3c8; font-family: 'Georgia', serif; "><em>Posted by LingLin</em></p>				
+  			<div class="pagination">
+  			{% if page.next %}
+    			<a class="pagination-item newer" href="{{ page.next.url }}">Newer</a>
+    		{% else %}
+    			<span class="pagination-item newer">Newer</span>
+    		{% endif %}  		
+    		{% if page.previous %}
+    			<a class="pagination-item newer  pull-right" href="{{ page.previous.url }}">Older</a>
+    		{% else %}
+    			<span class="pagination-item newer  pull-right">Older</span>
+    		{% endif %}  		
+  			</div>
+  			{% include comment.html %}
+  			
+  		</div>
+	</div>
+</div>

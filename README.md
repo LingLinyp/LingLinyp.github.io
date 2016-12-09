@@ -1,1 +1,2 @@
-# LingLinyp.github.io
+# blog.github.io
+Ling's Blog

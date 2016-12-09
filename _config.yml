@@ -1,0 +1,48 @@
+# Welcome to Jekyll!
+
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: "林玲的博客" 
+subtitle: "欢迎来到我的个人博客"
+email: llqyp1991@gmail.com
+description: "Ling's Blog"
+keywords: "Blog, Ling Lin, Lin Ling, 博客，前端，互联网，IT，设计，杂记"
+timezone: Asia/Shanghai
+baseurl: ""
+url: "http://linglinyp.com"
+
+# Author 
+author: "Ling Lin"
+
+# SNS settings
+github_username:  "lingLinyp"
+facebook_username: "linglinyp"
+weibo_username: "lingLinyp"
+linkedin_username: "linglinyp"
+
+
+
+# Comments   
+#support provider: duoshuo
+# !!!Important!!! Please modify usernames below to yours
+duoshuo_username: linglinyp
+
+
+# Build settings
+#permalink: pretty
+markdown: kramdown
+kramdown:
+  input: GFM
+theme: minima
+gems: [jekyll-paginate]
+
+#paginate: 8
+#paginate_path: "page:num"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock

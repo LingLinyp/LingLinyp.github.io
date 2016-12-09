@@ -1,0 +1,39 @@
+
+
+<div class="container">
+  <div class="row">
+<!-- posts container -->
+    <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12 posts-container">
+                {{ content }}
+    </div>
+<!-- siderbar container -->
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 sidebar-container">
+      <section>    
+        <hr/>        
+        <h4>标签</h4>
+        <div class="tags">
+        {% for tag in site.tags %}                            
+          <a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+        {% endfor %}
+        </div>
+      </section>
+      <section class="visible-lg visible-md">
+        <hr/>
+        <div><img src="{{ site.baseurl}}/images/sidebar_1.jpg" alt="" style="width: 160px; height: 160px"></div>
+        <p>Happy life, Happy coding~</p>
+      </section>
+     
+      <!-- <section>
+        <hr>
+        <h4>FRIENDS</h4>
+        {% if site.friends %}
+        <ul class="list-inline">
+        {% for friend in site.friends %}
+          <li><a href="{{friend.href}}" target="_blank">{{friend.title}}</a></li>
+        {% endfor %}
+        </ul>
+        {% endif %}     
+      </section>   -->         
+    </div>
+  </div>  
+</div>  
