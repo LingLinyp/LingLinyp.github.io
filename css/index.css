@@ -53,10 +53,6 @@ p {
   margin-bottom: 20px;
 
 }
-.animate-header.text-center {
-  padding-top: 200px;
-  padding-bottom: 150px;
-}
 
 #MyCanvas{
    background: no-repeat center center;
@@ -75,10 +71,6 @@ footer {
 }
 .post p { margin-top: 6px; }
 .post-date{
-  /*display: inline-block;
-  color: #a6a6a6; 
-  font-family: 'Trocchi', serif;
-  font-style: oblique;*/
   color: #bbc3c8; 
    display: inline-block; 
    font-family: 'Georgia', serif; 
@@ -89,7 +81,6 @@ footer {
 
 .excerpt {
    color:#a6a6a6 ; 
- 
    font-style: italic; 
 
 }
