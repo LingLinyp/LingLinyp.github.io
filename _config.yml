@@ -8,8 +8,7 @@
 # in the templates via {{ site.myvariable }}.
 title: 林玲的博客
 SEOTitle:  林玲的博客 | Ling's Blog
-subtitle: "欢迎来到我的个人博客"
-email: llqyp1991@gmail.com
+email: linglinyp@163.com
 description: "Ling's Blog"
 keywords: "Blog, Ling Lin, Lin Ling, 博客，前端，互联网，IT，设计，杂记"
 timezone: Asia/Shanghai
