@@ -35,6 +35,7 @@ duoshuo_username: linglinyp
 
 # Build settings
 #permalink: pretty
+highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
