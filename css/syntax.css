@@ -3,10 +3,11 @@
 
 pre {
   border:none;
+  color:#80bfff;
 }
 
 .highlight .gh {
-  color: #999999;
+  color: #80bfff;
 }
 .highlight .sr {
   color: #f6aa11;
@@ -21,7 +22,7 @@ pre {
   color:#aaaaaa;
 }
 .highlight .gu {
-  color: #aaaaaa;
+  color:#80bfff;
 }
 .highlight .nb {
   color: #f6aa11;
@@ -168,7 +169,7 @@ pre {
   color: #ffffff;
 }
 .highlight {
-  color: #ffffff;
+  color: #80bfff;
 }
 .highlight .n, .highlight .py, .highlight .nx {
   color: #ffffff;
