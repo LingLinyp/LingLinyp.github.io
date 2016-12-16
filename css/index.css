@@ -98,6 +98,9 @@ footer {
   text-decoration: none;
 }
 
+blockquote p{
+  color:#a6a6a6 ;
+}
 /*About Me*/
 
 .aboutme .fa{
