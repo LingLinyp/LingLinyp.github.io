@@ -100,9 +100,10 @@ footer {
 
 /*About Me*/
 
-.fa{
+.about .fa{
   color:#66ccff;
 }
+
 .aboutme hr{
     border: 0; 
     height: 1px; 
