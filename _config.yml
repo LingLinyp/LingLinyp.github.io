@@ -6,7 +6,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 林玲的博客
+title: Ling's Blog
 SEOTitle:  林玲的博客 | Ling's Blog
 email: linglinyp@163.com
 description: "Ling's Blog"
