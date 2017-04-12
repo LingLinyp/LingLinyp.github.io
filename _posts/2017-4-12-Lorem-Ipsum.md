@@ -46,13 +46,15 @@ Microsoft Word中的lorem()函数，可以自动生成这段文本。
 
 在文档中输入"=lorem()"：
 
-![这是一张本地图片](word.png)
+![这是一张本地图片](/images/word.png)
 
 按回车，得到以下内容：
 
-![SEO图片](/images/post.png)
 
-![这是一张本地图片](/images/post.png)
+![这是一张本地图片](/images/lorem.png)
+
+
+
 
 函数lorem()本身带有两个参数，如上（4,10）,4代表段落数，10代表每一段有几句话，这样显示出的内容就是4段，每段10句，这两个参数可按照需求自定义。
 
