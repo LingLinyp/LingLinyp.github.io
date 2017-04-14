@@ -7,7 +7,7 @@
 	canvas.width = W;
 	canvas.height = H;
 
-	var particles_number = 60;
+	var particles_number = 50;
 	var particles = [];
 	for(i = 0; i < particles_number; i++){
 		particles.push({

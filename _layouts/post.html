@@ -9,12 +9,12 @@ layout: default
         <div class="post-content">
          
           <h2>{{page.title}}</h2>
+          <p style="color: #bbc3c8; font-family: 'Georgia', serif; "><em>Posted by LingLin</em></p>
           <hr>
 
         	{{ content }}  
         </div> 
-        <hr>
-         <p style="color: #bbc3c8; font-family: 'Georgia', serif; "><em>Posted by LingLin</em></p>				
+        <hr>			
   			<div class="pagination">
   			{% if page.next %}
     			<a class="pagination-item newer" href="{{ page.next.url }}">Newer</a>
