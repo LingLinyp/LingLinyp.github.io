@@ -33,7 +33,7 @@ duoshuo_username: linglinyp
 
 
 # Build settings
-#permalink: pretty
+# permalink: pretty
 highlighter: rouge
 markdown: kramdown
 kramdown:
@@ -41,8 +41,8 @@ kramdown:
 theme: minima
 gems: [jekyll-paginate]
 
-#paginate: 8
-#paginate_path: "page:num"
+paginate: 5
+
 
 exclude:
   - Gemfile
