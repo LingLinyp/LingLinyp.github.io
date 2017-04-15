@@ -105,7 +105,16 @@ footer {
   font-style: italic;
 }
 
-
+.pagination { width: 100%; }
+.pagination a, .pagination span {
+  display: inline-block;
+  border: 1px solid #ccc;
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+  color:#66ccff;
+}
+.pagination a:hover { background-color: #66ccff; border:none; color:white;}
 blockquote p{
   color:#a6a6a6 ;
 }

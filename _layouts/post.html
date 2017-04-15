@@ -17,14 +17,14 @@ layout: default
         <hr>			
   			<div class="pagination">
   			{% if page.next %}
-    			<a class="pagination-item newer pull-right" href="{{ page.next.url }}">Newer</a>
+    			<a class="pagination-item newer pull-right " href="{{ page.next.url }}">Newer</a>
     		{% else %}
-    			<span class="pagination-item newer pull-right">Newer</span>
+    			<span class="pagination-item newer pull-right ">Newer</span>
     		{% endif %}  		
     		{% if page.previous %}
     			<a class="pagination-item newer" href="{{ page.previous.url }}">Older</a>
     		{% else %}
-    			<span class="pagination-item newer  ">Older</span>
+    			<span class="pagination-item newer">Older</span>
     		{% endif %}  		
   			</div>
   			{% include comment.html %}
