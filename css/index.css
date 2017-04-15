@@ -9,14 +9,22 @@ body {
 h1,h2,h3,h4{
   font-family:  'Microsoft Jhenghei' ,'Microsoft Yahei', Helvetica, Georgia, "Times New Roman", serif;
 }
+h2,h3{
+  font-weight: 600;
+}
 p { 
   line-height: 1.7;
   font-size: 1.5rem;
   letter-spacing: 1px;
 }
+
+a:hover{
+  text-decoration: none;
+}
 img{
-  width: 100%;
-  
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .navbar-custom {
   border: none;
@@ -54,6 +62,12 @@ img{
   margin-bottom: 20px;
 
 }
+.post a{
+  color:#333;
+}
+.post a:hover{
+    color:#66ccff;
+}
 
 #MyCanvas{
    background: no-repeat center center;
@@ -81,25 +95,16 @@ footer {
 }
 
 .excerpt {
-   color:#a6a6a6 ; 
-   font-style: italic; 
+    color:black;
+   // font-style: italic; 
 
 }
 
-.pagination { width: 100%; }
-.pagination a, .pagination span {
-  display: inline-block;
-  border: 1px solid #66ccff;
-  width: 20%;
-  padding: 10px;
-  text-align: center;
-  color:#66ccff;
+.post-preview {
+  color:#888 ; 
+  font-style: italic;
 }
-.pagination a:hover {
-  color:#fff;
-  background: #66ccff;
-  text-decoration: none;
-}
+
 
 blockquote p{
   color:#a6a6a6 ;

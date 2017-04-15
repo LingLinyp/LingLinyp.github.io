@@ -8,7 +8,8 @@ tags: '小知识'
 > 任何时候都不要停止学习
 
 
-![这是一张本地图片](/images/lorem_ipsum.png)
+![Lorem ipsum](/images/lorem_ipsum.png)
+
 
 
 
@@ -47,12 +48,14 @@ Microsoft Word中的lorem()函数，可以自动生成这段文本。
 
 在文档中输入"=lorem()"：
 
-![这是一张本地图片](/images/word.png)
+![Lorem函数](/images/word.png)
+
 
 按回车，得到以下内容：
 
 
-![这是一张本地图片](/images/lorem.png)
+![Lorem函数](/images/lorem.png)
+
 
 
 

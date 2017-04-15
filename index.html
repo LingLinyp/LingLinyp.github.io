@@ -3,20 +3,23 @@ layout: page
 ---
 <!--标题、日期、摘要  -->
 
-<div>
     {% for post in site.posts %}
     <div class="post">
-        <h3> {{ post.title }}</h3>
-        <div class="excerpt">{{ post.excerpt }}</div>
-        <span class="post-date">{{ post.date | date_to_string }}</span>
-        <span class="pagination"><a href="{{ post.url }}">READ MORE</a></span>
+        <a href="{{ post.url }}"> <h2>{{ post.title }}</h2></a>
+        <!-- <div class="excerpt">{{ post.excerpt }}</div> -->
+        <div class="post-preview">
+            {{ post.content | strip_html | truncate:150 }}
+            
+        </div>
+        <br/>
+        <span class="post-date">Posted by {% if site.author %}{{ site.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date_to_string }}</span>
     </div>
     <hr/>
     {% endfor %}
-</div>
+
 
 <!-- 分页链接 -->
-{% if paginator.total_pages > 1 %}
+<!-- {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/'}}">Older</a>
@@ -29,7 +32,14 @@ layout: page
     <span class="pull-right">Newer</span>
   {% endif %}   
 </div>
-{% endif %}
+{% endif %} -->
+
+
+
+  
+
+
+
 
 
 
