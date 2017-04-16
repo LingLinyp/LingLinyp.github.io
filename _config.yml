@@ -42,8 +42,7 @@ kramdown:
 theme: minima
 gems: [jekyll-paginate]
 
-paginate: 5
- 
+
 
 
 

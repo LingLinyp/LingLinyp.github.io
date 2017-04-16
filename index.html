@@ -3,7 +3,7 @@ layout: page
 ---
 <!--标题、日期、摘要  -->
 
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
     <div class="post">
         <a href="{{ post.url }}"> <h2>{{ post.title }}</h2></a>
         <!-- <div class="excerpt">{{ post.excerpt }}</div> -->
@@ -19,38 +19,20 @@ layout: page
 
 
 <!-- 分页链接 -->
-<!-- {% if paginator.total_pages > 1 %}
+{% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/'}}">Older</a>
+    <a class="pull-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/'}}">OLDER</a>
   {% else %}
-    <span>Older</span>
+    <span class="pull-right">OLDER</span>
   {% endif %}
   {% if paginator.previous_page %}
-    <a class="pull-right" href="{{  paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/'}}">Newer</a>
+    <a  href="{{  paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/'}}">NEWER</a>
   {% else %}
-    <span class="pull-right">Newer</span>
+    <span >NEWER</span>
   {% endif %}   
 </div>
-{% endif %} -->
-
-
-
-<!-- 分页链接 -->
-
-<!-- <div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
-</div> -->
+{% endif %}
 
 
   
