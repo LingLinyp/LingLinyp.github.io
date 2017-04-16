@@ -42,6 +42,8 @@ kramdown:
 theme: minima
 gems: [jekyll-paginate]
 
+paginate: 5
+paginate_path: "blog/page:num"
 
 
 
