@@ -1,8 +1,9 @@
 ---
 layout: post
 title: 'Markdown 学习笔记'
+subtitle: "Markdown Tutorial"
 date: 2016-12-11 10:23:00
-tags: Markdown
+tags: "学习笔记"
 ---
 > 从今天开始学习markdown 标记语言 ，希望不用花太长时间
 

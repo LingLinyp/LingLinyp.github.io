@@ -142,3 +142,36 @@ blockquote p{
   color:#66ccff;
   text-decoration: none;
 }
+
+/*TAGS Style*/
+
+.tags a{
+  padding:5px 8px;
+  background: #66ccff;
+  border-radius: 20px;
+  color:#ccffcc;
+}
+.tags a:hover{
+  background: #0099cc;
+}
+.one-tag-list{
+  margin-top:30px;
+}
+.one-tag-list .tag-text,.one-tag-list .fa{
+    font-size: 20px;
+    color:#0099CC;
+}
+.one-tag-list .post-title{
+   color:#888;
+   font-size: 20px;
+}
+
+.one-tag-list .post-subtitle{
+  color:#888;
+   font-size: 14px;
+   font-weight: 400;
+   font-family: "Helvetica Neue";
+}
+.post-titles:hover h2,.post-titles:hover h3{
+  color:#0099CC;
+}

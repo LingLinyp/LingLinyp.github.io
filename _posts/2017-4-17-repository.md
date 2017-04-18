@@ -1,6 +1,7 @@
 ---
 layout: post
 title: '如何删除Github Repository'
+subtitle: "How to delete remote repository on github"
 date: 2017-4-17 
 tags: '小技巧'
 ---

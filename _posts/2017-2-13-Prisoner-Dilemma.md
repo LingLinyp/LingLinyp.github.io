@@ -1,7 +1,9 @@
 ---
 layout: post
 title: '囚徒困境'
+subtitle: "Prisoner's Dilemma"
 date: 2017-2-13 11:48:00
+tags: "随笔"
 ---
 
 > 在学习中可以找到自己的幸福
