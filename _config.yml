@@ -6,12 +6,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 林玲的博客 | Ling's Blog
+title: Ling's Blog
 SEOTitle:  林玲的博客 | Ling's Blog
+header-img: img/home-bg.jpg
 email: linglinyp@163.com
 description: "欢迎来到林玲的个人博客"
-keywords: "Blog, Ling Lin, Lin Ling, 博客，前端，互联网，IT，设计，杂记"
-timezone: Asia/Shanghai
+keyword: "Ling Lin, Lin Ling, 博客，前端，IT，网页设计，随笔，林玲"
 baseurl: ""
 url: "http://linglinyp.com"
 
@@ -31,6 +31,7 @@ linkedin_username: "linglinyp"
 #support provider: duoshuo
 # !!!Important!!! Please modify usernames below to yours
 duoshuo_username: linglinyp
+duoshuo_share: false
 
 
 # Build settings
@@ -45,9 +46,43 @@ gems: [jekyll-paginate]
 paginate: 5
 
 
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "人生太短，世界又这么大，我想留下属于自己的足迹"
+sidebar-avatar: /img/avatar-ling.jpg  
 
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 2da173f5cd6d257eaf32e843dca68895
+# Google Analytics
+ga_track_id: 'UA-98278066-1'            # Format: UA-xxxxxx-xx
+ga_domain: linglinyp.com
 
 
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1
+
+# Friends
+friends: [
+    {
+        title: "A",
+        href: "#"
+    },{
+        title: "B",
+        href: "#"
+    },{
+        title: "C",
+        href: "#"
+    },{
+        title: "D",
+        href: "#"
+    },{
+        title: "E",
+        href: "#"
+    }
+]

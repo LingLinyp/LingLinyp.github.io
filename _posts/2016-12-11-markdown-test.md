@@ -3,7 +3,10 @@ layout: post
 title: 'Markdown 学习笔记'
 subtitle: "Markdown Tutorial"
 date: 2016-12-11 10:23:00
-tags: "学习笔记"
+tags: 
+   - 学习笔记
+   - Markdown
+
 ---
 > 从今天开始学习markdown 标记语言 ，希望不用花太长时间
 
@@ -241,13 +244,13 @@ Markdown 中：
 
 ```
 ![这是一张网络图片](http://www.misskatecuttables.com/uploads/shopping_cart/9169/med_cute-firework.png)
-![这是一张本地图片](/images/sidebar_1.png)
+![这是一张本地图片](/img/in-post/sidebar_1.png)
 ```
 效果：
 
 ![这是一张网络图片](http://www.misskatecuttables.com/uploads/shopping_cart/9169/med_cute-firework.png)
 
-![这是一张本地图片](/images/sidebar_1.png)
+![这是一张本地图片](/img/in-post/sidebar_1.png)
 
 
 结束了

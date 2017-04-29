@@ -2,13 +2,14 @@
 layout: post
 title: '谈谈Lorem Ipsum'
 date: 2017-4-12 12:00：00
-tags: '小知识'
+header-img/in-post: "img/in-post/in-post/post-04-bg.jpg"
+tags: 
+   - 小知识
+   - 网页开发
 ---
 
 > 任何时候都不要停止学习
 
-
-![Lorem ipsum](/images/lorem_ipsum.png)
 
 
 
@@ -48,13 +49,13 @@ Microsoft Word中的lorem()函数，可以自动生成这段文本。
 
 在文档中输入"=lorem()"：
 
-![Lorem函数](/images/word.png)
+![Lorem函数](/img/in-post	/word.png)
 
 
 按回车，得到以下内容：
 
 
-![Lorem函数](/images/lorem.png)
+![Lorem函数](/img/in-post	/lorem.png)
 
 
 

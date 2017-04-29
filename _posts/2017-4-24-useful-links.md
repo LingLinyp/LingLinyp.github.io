@@ -2,8 +2,11 @@
 layout: post
 title: 对前端开发有用的链接（持续更新）
 subtitle: Web Design Resources and Useful Links
-date: 2017-4-24
-tags: 前端开发
+date: 2017-04-24
+header-img: "img/in-post/post-04-bg.jpg"
+tags: 
+    - 前端开发
+    - 小知识
 ---
 
 > 自从学习了前端，发现有太多太多资源，所以得一一记录下来，万一之后有人向我请教呢。

@@ -2,7 +2,11 @@
 layout: post
 title: JavaScript中的Math对象
 subtitle: "JavaScript: The Math Object"
-tags: JavaScript
+date: 2017-04-26
+header-img: "img/in-post/post-04-bg.jpg"
+tags: 
+    - 前端开发
+    - JavaScript
 ---
 
 **Math对象**

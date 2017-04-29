@@ -2,6 +2,7 @@
 layout: post
 title: '网页设计Tips分享'
 subtitle: "Web Design Tips"
+header-img: "img/in-post/post-04-bg.jpg"
 date: 2017-4-14 
 tags: '网页设计'
 ---

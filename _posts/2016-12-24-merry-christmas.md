@@ -2,7 +2,9 @@
 layout: post
 title: 'Wish you a very Marry Christmas!'
 date: 2016-12-24 15：54：00
-tags: '随笔'
+tags: 
+   - 随笔
+   - 生活
 ---
 
 > 停留在记忆中的事情越来越多，那代表着我们正在渐渐老去
@@ -16,13 +18,13 @@ tags: '随笔'
 
 ---
 
-![圣诞氛围](/images/merry1.png)
+![圣诞氛围](/img/in-post/merry1.png)
 
-![水果](/images/merry2.jpg)
+![水果](/img/in-post/merry2.jpg)
 
-![圣诞大餐](/images/merry3.png)
+![圣诞大餐](/img/in-post/merry3.png)
 
-![圣诞布丁](/images/merry4.png)
+![圣诞布丁](/img/in-post/merry4.png)
 
 
 以上是去年圣诞节的场景，泪......今年，那位友人已经回国了。
