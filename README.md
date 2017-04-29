@@ -1,9 +1,6 @@
-# HuxBlog Boilerplate
+# 林玲的博客
 
-##### This is the boilerplate of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), all documents is over there!
+<a href="http://linglinyp.com/" target="_blank">欢迎来我的博客转转&rarr;</a>
 
-#### [View Boilerplate &rarr;](http://huangxuan.me/huxblog-boilerplate/)
+本博客的主题来自：[Hux Blog &rarr;](http://huangxuan.me)，非常感谢大神提供了如此好的主题。
 
-#### [View Live Hux Blog &rarr;](http://huangxuan.me)
-
-## If you like Hux Blog, Please star [huxpro.github.io repo](https://github.com/Huxpro/huxpro.github.io) instead of this! Thank you!
