@@ -7,11 +7,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Ling's Blog
-SEOTitle:  林玲的博客 | Ling's Blog
+SEOTitle:  Ling Lin | Ling's Blog
 header-img: img/home-bg.jpg
 email: linglinyp@163.com
-description: "欢迎来到林玲的个人博客"
-keywords: "Ling Lin, Lin Ling, 博客，前端，IT，网页设计，随笔，林玲"
+description: "欢迎来到我的个人博客"
+keywords: "Ling Lin, Lin Ling, 博客，前端，IT，网页设计，随笔"
 baseurl: ""
 url: "http://linglinyp.com"
 
