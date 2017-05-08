@@ -31,7 +31,7 @@ linkedin_username: "linglinyp"
 #support provider: duoshuo
 # !!!Important!!! Please modify usernames below to yours
 duoshuo_username: linglinyp
-duoshuo_share: false
+duoshuo_share: true
 
 
 # Build settings

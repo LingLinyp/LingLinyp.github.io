@@ -2,6 +2,7 @@
 layout: post
 title: 国家公园之Brecon Beacons
 subtitle: Brecon Beacons National Park 
+catalog: true
 tags: 
     - 生活
     - 随笔
@@ -58,9 +59,11 @@ header-img: img/post-05-bg.jpg
 
 走了很久，也经过很陡的路段，一直以为正对着的是最终目的地，途中遇到一位攀登者告诉我，那不是最高峰，最高峰是右边那个。WTF!!!我一直以为是目标，而且深信不疑得朝着它前进，现在告诉我，目标是错的，那只是第二高峰。不过还好，两峰只间隔了15分钟路程，我那惊吓的小心脏缓了许多。
 <img src="/img/in-post/tr_img4.jpg">
+<img src="/img/in-post/tr_img40.jpg">
 
 最终还是登上了最高峰，沿途风很大，越往上风越大，我也吃了一嘴的砂石。有几次都担心自己会不会失足滚下山去，忽略我那凌乱不堪的头发。最后的那一段真心很陡，是手脚并用爬上去的。在山脚下还是阴天，时不时有大片乌云飘过。真担心在这么高的地方，会不会被雷击中。当到达山顶的时候，天空放晴。虽然短暂，但也令人欣慰。
 <img src="/img/in-post/tr_img.jpg">
+
 <img src="/img/in-post/tr_img13.jpg">
 <img src="/img/in-post/tr_img11.jpg">
 <img src="/img/in-post/tr_img12.jpg">
