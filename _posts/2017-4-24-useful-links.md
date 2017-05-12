@@ -42,6 +42,17 @@ tags:
 <a href="https://www.freecodecamp.cn/home" target="_blank">freeCodeCamp中文版</a>，建议大家还是多看英文的效果更好。
 
 
+**实践平台**
+
+- <a href="https://codepen.io/" target="_blank">CODEPEN</a>
+
+
+
+```平台特点```：
+
+支持当下最流行的技术，里面包含了不少库，比如Bootstrap。可以学习很多大牛的作品，代码都是开源的，有利于分享学习，我们可以将自己的练习demo都放进去，积少成多，将来可作为自己的作品集展示。
+
+
 
 
 
