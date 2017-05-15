@@ -15,7 +15,7 @@ tags:
 
  调用Math属性和方法的语法：
 
- ```
+ ```js
  var x = Math.PI;
  var y = Math.round(3.4);
  ```
@@ -26,49 +26,49 @@ tags:
 
 - E: 返回欧拉常数，也是<a href="http://baike.baidu.com/item/%E8%87%AA%E7%84%B6%E5%AF%B9%E6%95%B0" target="_blank">自然对数</a>的底数, 约等于 2.718
 
-```
+```js
 Math.E;//2.718281828459045
 ```
 - LN2： 返回2的自然对数, 约等于0.693
 
-```
+```js
 Math.LN2;//0.6931471805599453
 ```
 
 - LN10: 返回10的自然对数，约等于2.303
 
-```
+```js
 Math.LN10;//2.302585092994046
 ```
 
 - LOG2E: 返回以2为底E的对数, 约等于 1.443
 
-```
+```js
 Math.LOG2E;//1.4426950408889634
 ```
 
 - LOG10E: 返回以10为底E的对数, 约等于 0.434
 
-```
+```js
 Math.LOG10E;//0.4342944819032518
 ```
 
 
 - PI: 返回圆周率，圆的周长：直径，约等于 3.14159（记得当年各种背诵记忆这个数字）
 
-```
+```js
 Math.PI;//3.141592653589793
 ```
 
 - SQRT1_2: 返回1/2的平方根, 约等于 0.707
 
-```
+```js
 Math.SQRT1_2;//0.7071067811865476
 ```
 
 - SQRT2: 返回2的平方根, 约等于 1.414
 
-```
+```js
 Math.SQRT2;//1.4142135623730951
 ```
 
@@ -76,7 +76,7 @@ Math.SQRT2;//1.4142135623730951
 
 **1.Math.abs(x)**：返回x的绝对值
 
-```
+```js
 var val = Math.abs(-1.9);
  document.write("First value is: " + val ); 
          
@@ -109,14 +109,14 @@ Fourth value is: NaN
 ```
 结果：
 
-```
+```js
 0.027685192566733408
 0.3054081853981876
 ```
 
 **3.Math.floor(x)**: 返回一个x向下取整后的整数值，简单点就是直接省略掉小数点后面的,保留整数
 
-```
+```js
  var val = Math.floor(3.4);
  document.write(val);
 
@@ -131,7 +131,7 @@ Fourth value is: NaN
 
  **4.Math.ceil(x)**: 返回一个x向上取整后的整数值，简单点就是只要小数点后有数值，就向前进一位，与```Math.floor(x)```相反
 
-```
+```js
 var val = Math.ceil(3.4);
  document.write(val);
 
@@ -146,7 +146,7 @@ var val = Math.ceil(3.4);
 ```
 
 **5.Math.round(x)**：返回x四舍五入后的整数
-```
+```js
 var val = Math.round(3.4);
  document.write(val);
 
