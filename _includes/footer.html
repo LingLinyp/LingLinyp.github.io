@@ -25,7 +25,7 @@
                     </li>
                     {% endif %}
 
-                    {% if site.zhihu_username %}
+                    <!-- {% if site.zhihu_username %}
                     <li>
                         <a target="_blank" href="https://www.zhihu.com/people/{{ site.zhihu_username }}">
                             <span class="fa-stack fa-lg">
@@ -34,7 +34,7 @@
                             </span>
                         </a>
                     </li>
-                    {% endif %}
+                    {% endif %} -->
                     {% if site.weibo_username %}
                     <li>
                         <a target="_blank" href="http://weibo.com/{{ site.weibo_username }}">
@@ -79,8 +79,11 @@
                     {% endif %}
                 </ul>
                 <p class="copyright text-muted">
-                    Copyright {{ site.time | date: '%Y' }} <i class="fa fa-heart" aria-hidden="true" style="color: #0085A1"></i> Ling Lin. Powered by Jekyll&GitHub.</p> 
+                    Copyright {{ site.time | date: '%Y' }} <i class="fa fa-heart" aria-hidden="true" style="color: #0085A1"></i> Ling Lin. Powered by Jekyll&GitHub.</span> 
+您是本站第<span id="busuanzi_value_site_uv"></span>位小伙伴</p> 
                     <p class="copyright text-muted" id="count">
+
+
                     <!-- Theme by <a href="http://huangxuan.me">Hux</a> |
                     <iframe
                         style="margin-left: 2px; margin-bottom:-5px;"
@@ -88,10 +91,14 @@
                         src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" >
                     </iframe> -->
                 </p>
+
+
             </div>
         </div>
     </div>
 </footer>
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
 <script>
   
   window.setInterval('counter()',1000);

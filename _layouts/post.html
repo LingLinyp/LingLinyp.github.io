@@ -25,7 +25,9 @@ layout: default
                     {% comment %} if page.subtitle {% endcomment %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% comment %} endif {% endcomment %}
-                    <span class="meta">Posted by {% if site.author %}{{ site.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                    <span class="meta">Posted by {% if site.author %}{{ site.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}&nbsp;<span id="busuanzi_container_page_pv">
+                 <i class="fa fa-eye" aria-hidden="true"></i>&nbsp;&nbsp;views: <span id="busuanzi_value_page_pv"></span>
+              </span></span>
                 </div>
             </div>
         </div>
@@ -36,13 +38,13 @@ layout: default
 <article>
     <div class="container">
         <div class="row">
-
+        
     <!-- Post Container -->
             <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 post-container">
-
+                
 				{{ content }}
 
                 <hr>
