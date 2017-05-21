@@ -70,19 +70,19 @@ featured-condition-size: 1
 # Friends
 friends: [
     {
-        title: "A",
+        title: "咕咚",
+        href: "http://gudong.name/"
+    },{
+        title: "",
         href: "#"
     },{
-        title: "B",
+        title: "",
         href: "#"
     },{
-        title: "C",
+        title: "",
         href: "#"
     },{
-        title: "D",
-        href: "#"
-    },{
-        title: "E",
+        title: "",
         href: "#"
     }
 ]
