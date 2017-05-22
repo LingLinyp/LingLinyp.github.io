@@ -31,7 +31,8 @@ weibo_username: "lingLinyp"
 #support provider: duoshuo
 # !!!Important!!! Please modify usernames below to yours
 # duoshuo_username: linglinyp
-duoshuo_share: true
+# duoshuo_share: true
+disqus_username: linglinyp
 
 
 # Build settings
