@@ -28,7 +28,7 @@ tags:
 
 - Shortname
 
-没看到这一项？你点击一下```Customize Your URL```就会出现。这就是你的```disqus_shortname```，设置后不可更改。 <a href="https://help.disqus.com/customer/portal/articles/466208" target="_blank">关于Shortname</a>
+没看到这一项？你点击一下```Customize Your URL```就会出现。这就是你的```disqus_shortname```，设置后不可更改。 我们在用博客模板的时候，一般会有说明文档，里面强调的比较多的就是将一些ID替换成自己的，这个Shortname就是你的Disqus用户名。
 
 
 <img src="/img/in-post/dis_img2.jpg">
@@ -60,6 +60,8 @@ tags:
 
 <a href="http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/" target="_blank">Adding Disqus to your Jekyll
 </a>
+
+<a href="https://help.disqus.com/customer/portal/articles/466208" target="_blank">关于Shortname</a>
 
 最后纪念一下多说，再见了~~
 <img src="/img/in-post/duoshuo.jpg">
