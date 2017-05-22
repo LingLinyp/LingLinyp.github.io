@@ -30,7 +30,7 @@ weibo_username: "lingLinyp"
 # Comments   
 #support provider: duoshuo
 # !!!Important!!! Please modify usernames below to yours
-duoshuo_username: linglinyp
+# duoshuo_username: linglinyp
 duoshuo_share: true
 
 
