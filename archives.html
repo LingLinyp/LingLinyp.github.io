@@ -12,7 +12,7 @@ header-img: "img/archives-bg.jpg"
 		{% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 	
 		{% if forloop.first %}
-		<legend id="{{this_year}}-{{this_month}}">{{this_year}} {{this_month}}</legend>
+		<legend style="color:#0085A1;" id="{{this_year}}-{{this_month}}"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;{{this_year}} {{this_month}}</legend>
 		<ul>
 		{% endif %}
 	
@@ -24,12 +24,12 @@ header-img: "img/archives-bg.jpg"
 		{% if this_year != next_year %}
 			</ul>
 
-			<legend id="{{next_year}}-{{next_month}}">{{next_year}} {{next_month}}</legend>
+			<legend style="color:#0085A1;" id="{{next_year}}-{{next_month}}"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;{{next_year}} {{next_month}}</legend>
 			<ul>
 		{% else %}    
 			{% if this_month != next_month %}
 			</ul>
-			<legend id="{{next_year}}-{{next_month}}">{{next_year}} {{next_month}}</legend>
+			<legend style="color:#0085A1;" id="{{next_year}}-{{next_month}}"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;{{next_year}} {{next_month}}</legend>
 			<ul>
 			{% endif %}
 			{% endif %}
