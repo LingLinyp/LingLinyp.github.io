@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 给Jekyll博客添加访问量统计
+categories: Skills
 tags: 
     - 小技巧
 ---

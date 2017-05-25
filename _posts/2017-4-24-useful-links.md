@@ -2,7 +2,7 @@
 layout: post
 title: 对前端开发有用的链接（持续更新）
 subtitle: Web Design Resources and Useful Links
-date: 2017-04-24
+categories: Notes
 header-img: "img/in-post/post-04-bg.jpg"
 tags: 
     - 前端开发

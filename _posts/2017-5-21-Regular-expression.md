@@ -3,6 +3,7 @@ layout: post
 title: 正则表达式学习笔记
 subtitle: Learning Javascript Regular Expression
 catalog: true
+categories: Study
 tags: 
     - JavaScript
     - 学习笔记

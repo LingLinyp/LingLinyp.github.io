@@ -3,7 +3,7 @@ layout: post
 title: JS中的"="、"=="、"==="
 subtitle: "Equality Operator in Javascript"
 header-img: "img/in-post/post-04-bg.jpg"
-date: 2017-4-20
+categories: Skills
 tags: "小知识"
 ---
 

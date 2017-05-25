@@ -2,6 +2,7 @@
 layout: post
 title: JS中Array方法之map()
 subtitle: JavaScript Array map() Method
+categories: Study
 tags: 
     - 前端开发
     - JavaScript

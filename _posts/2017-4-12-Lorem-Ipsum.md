@@ -2,6 +2,7 @@
 layout: post
 title: '谈谈Lorem Ipsum'
 date: 2017-4-12 12:00：00
+categories: Notes
 header-img/in-post: "img/in-post/in-post/post-04-bg.jpg"
 tags: 
    - 小知识

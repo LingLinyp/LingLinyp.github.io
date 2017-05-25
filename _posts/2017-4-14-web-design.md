@@ -3,7 +3,7 @@ layout: post
 title: '网页设计Tips分享'
 subtitle: "Web Design Tips"
 header-img: "img/in-post/post-04-bg.jpg"
-date: 2017-4-14 
+categories: Skills
 tags: '网页设计'
 ---
 >网页设计是一种乐趣，不需要计算机科学的背景，也不需要艺术背景

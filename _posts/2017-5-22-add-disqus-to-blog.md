@@ -2,6 +2,8 @@
 layout: post
 title: 为Jekyll博客添加Disqus(step by step)
 subtitle: How to add disqus to your website
+category: Skills
+catalog: true
 tags:
     - 小技巧
 ---
@@ -10,6 +12,8 @@ tags:
 已经安装成功，觉得很好用，下面分享一下我的安装过程。
 
 ## 第一步： 注册 <a href="https://disqus.com/" target="_blank">Disqus</a>账号
+
+
 
 注册过程很简单(GET STARTED)
 <img src="/img/in-post/dis_img.jpg" alt="disqus">

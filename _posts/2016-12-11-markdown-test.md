@@ -2,7 +2,7 @@
 layout: post
 title: 'Markdown 学习笔记'
 subtitle: "Markdown Tutorial"
-date: 2016-12-11 10:23:00
+categories: Study
 tags: 
    - 学习笔记
    - Markdown

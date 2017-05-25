@@ -7,6 +7,88 @@ layout: default
     header.intro-header{
         background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')
     }
+
+    .catalog-container {
+      padding: 0px;
+    }
+    .side-catalog {
+      display: block;
+      overflow: auto;
+      height: 100%;
+      padding-bottom: 40px;
+      width: 195px;
+    }
+    .side-catalog.fixed {
+      position: fixed;
+      top: -21px;
+    }
+    .side-catalog.fold .catalog-toggle::before {
+      content: "+";
+    }
+    .side-catalog.fold .catalog-body {
+      display: none;
+    }
+    .side-catalog .catalog-toggle::before {
+      content: "−";
+      position: relative;
+      margin-right: 5px;
+      bottom: 1px;
+    }
+    .side-catalog .catalog-body {
+      position: relative;
+      list-style: none;
+      height: auto;
+      overflow: hidden;
+      padding-left: 0px;
+      padding-right: 5px;
+      text-indent: 0;
+    }
+    .side-catalog .catalog-body li {
+      position: relative;
+      list-style: none;
+    }
+    .side-catalog .catalog-body li a {
+      padding-left: 10px;
+      max-width: 180px;
+      display: inline-block;
+      vertical-align: middle;
+      height: 30px;
+      line-height: 30px;
+      overflow: hidden;
+      text-decoration: none;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .side-catalog .catalog-body .h1_nav,
+    .side-catalog .catalog-body .h2_nav,
+    .side-catalog .catalog-body .h3_nav {
+      margin-left: 0;
+      font-size: 13px;
+      font-weight: bold;
+    }
+    .side-catalog .catalog-body .h4_nav,
+    .side-catalog .catalog-body .h5_nav,
+    .side-catalog .catalog-body .h6_nav {
+      margin-left: 10px;
+      font-size: 12px;
+    }
+    .side-catalog .catalog-body .h4_nav a,
+    .side-catalog .catalog-body .h5_nav a,
+    .side-catalog .catalog-body .h6_nav a {
+      max-width: 170px;
+    }
+    .side-catalog .catalog-body .active {
+      border-radius: 4px;
+      background-color: #F5F5F5;
+    }
+    .side-catalog .catalog-body .active a {
+      color: #0085a1!important;
+    }
+    @media (max-width: 1200px) {
+      .side-catalog {
+        display: none;
+      }
+    }
 </style>
 <header class="intro-header" >
     <div class="container">
@@ -63,6 +145,21 @@ layout: default
                     </li>
                     {% endif %}
                 </ul>
+
+                <br>
+                <!-- AddToAny BEGIN -->
+
+                <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                    <a class="a2a_button_wechat"></a>
+                    <a class="a2a_button_sina_weibo"></a>
+                    <a class="a2a_button_facebook"></a>
+                    <a class="a2a_button_twitter"></a>
+                    <a class="a2a_button_linkedin"></a>
+                    <a class="a2a_button_google_plus"></a>
+                </div>
+               <script async src="https://static.addtoany.com/menu/page.js"></script>
+                <!-- AddToAny END -->
               
                 {% if site.disqus_username %}
                 <!-- disqus 评论框 start -->
@@ -75,6 +172,22 @@ layout: default
 
 
             </div>
+            <!-- Side Catalog Container -->
+        {% if page.catalog %}
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+        {% endif %}
 
     <!-- Sidebar Container -->
             <div class="

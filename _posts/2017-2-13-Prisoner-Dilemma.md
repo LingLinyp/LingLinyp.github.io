@@ -2,7 +2,7 @@
 layout: post
 title: '囚徒困境'
 subtitle: "Prisoner's Dilemma"
-date: 2017-2-13 11:48:00
+categories: Notes
 tags: "随笔"
 ---
 

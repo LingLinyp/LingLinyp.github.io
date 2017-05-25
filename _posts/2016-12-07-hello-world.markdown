@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "博客启航"
-date: 2016-12-07 14:55:34 +0000
+categories: Life
 tags: "随笔"
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: '如何删除Github Repository'
 subtitle: "How to delete remote repository on github"
 header-img/in-post: "img/in-post/in-post/post-04-bg.jpg"
-date: 2017-4-17 
+categories: Skills
 tags: '小技巧'
 ---
 

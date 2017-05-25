@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '浅谈二元期权'
-date: 2016-12-13 10:00:00
+categories: Notes
 tags: 
    - 学习笔记
    - 随笔

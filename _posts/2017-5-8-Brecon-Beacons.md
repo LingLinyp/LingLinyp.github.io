@@ -2,7 +2,7 @@
 layout: post
 title: 国家公园之Brecon Beacons
 subtitle: Brecon Beacons National Park 
-date: 2017-5-8
+categories: Life
 tags: 
     - 生活
     - 随笔
