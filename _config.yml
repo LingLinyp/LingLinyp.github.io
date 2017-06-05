@@ -28,10 +28,6 @@ weibo_username: "lingLinyp"
 
 
 # Comments   
-#support provider: duoshuo
-# !!!Important!!! Please modify usernames below to yours
-# duoshuo_username: linglinyp
-# duoshuo_share: true
 disqus_username: linglinyp
 
 
@@ -67,6 +63,7 @@ exclude:
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1
+
 
 # Friends
 friends: [
