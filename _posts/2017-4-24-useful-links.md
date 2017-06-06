@@ -3,7 +3,7 @@ layout: post
 title: 对前端开发有用的资源（亲身体验）
 subtitle: Web Design Resources and Useful Links
 catalog: true
-categories: Notes
+categories: Study
 updated: 2017-6-1 20:18:54
 header-img: "img/in-post/post-04-bg.jpg"
 tags: 

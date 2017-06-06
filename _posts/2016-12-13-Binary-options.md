@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '浅谈二元期权'
-categories: Notes
+categories: Life
 tags: 
    - 学习笔记
    - 随笔

@@ -107,9 +107,10 @@ layout: default
                     {% comment %} if page.subtitle {% endcomment %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% comment %} endif {% endcomment %}
-                    <span class="meta"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;{% if site.author %}{{ site.author }}{% else %}{{ site.title }}{% endif %}&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;{{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&nbsp;<i class="fa fa-check-square-o" aria-hidden="true"></i>{{ content | strip_html | strip_newlines | split: "" | size }}&nbsp;words&nbsp;&nbsp;<span id="busuanzi_container_page_pv">
+                    <span class="meta"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;{% if site.author %}{{ site.author }}{% else %}{{ site.title }}{% endif %}&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;{{ page.date | date: "%Y-%m-%d" }}&nbsp;&nbsp;&nbsp;<i class="fa fa-check-square-o" aria-hidden="true"></i>{{ content | strip_html | strip_newlines | size }}&nbsp;words&nbsp;&nbsp;<span id="busuanzi_container_page_pv">
                     <i class="fa fa-eye" aria-hidden="true"></i>&nbsp;<span id="busuanzi_value_page_pv">&</span>&nbsp;views</span>
                     <br/>
+
                     <p></p>
                      {% if page.updated %}
                      Updated on {{ page.updated | date: "%B %-d, %Y" }}

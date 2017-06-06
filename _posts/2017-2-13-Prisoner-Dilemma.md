@@ -2,7 +2,7 @@
 layout: post
 title: '囚徒困境'
 subtitle: "Prisoner's Dilemma"
-categories: Notes
+categories: Life
 tags: "随笔"
 ---
 

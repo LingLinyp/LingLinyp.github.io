@@ -2,7 +2,7 @@
 layout: post
 title: 为Jekyll博客添加Disqus(step by step)
 subtitle: How to add disqus to your website
-category: Skills
+category: Jekyll
 catalog: true
 tags:
     - 小技巧
