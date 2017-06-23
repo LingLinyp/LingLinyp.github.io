@@ -40,7 +40,7 @@ kramdown:
 theme: minima
 gems: [jekyll-paginate]
 
-paginate: 5
+paginate: 8
 
 
 # Sidebar settings
