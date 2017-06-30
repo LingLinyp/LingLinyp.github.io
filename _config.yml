@@ -82,5 +82,10 @@ friends: [
     },{
         title: "HyG",
         href: "https://gaohaoyang.github.io/?from=inf&wvr=5&loc=infblog"
-    }
+    },{
+       title: "雷全的个人网站",
+       href: "https://leiquan.website/"
+    
+     }
+
 ]
